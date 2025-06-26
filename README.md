@@ -9,8 +9,11 @@ addpath('spm12')
 spm('defaults', 'eeg')
 ```
 
-## Data
-Contains the example EEG data files along with corresponding SPM gain matrix file. Example_MNI_coords.mat contains a set of MNI coordinates that can be used to define the electromagnetic model, i.e., specify the source locations, within the SPM DCM GUI.
+## Data Files
+Contains fully pre-processed example EEG data files along with corresponding SPM gain matrix file. Example_MNI_coords.mat contains a set of MNI coordinates that can be used to define the electromagnetic model, i.e., specify the source locations, within the SPM DCM GUI.
+
+## Raw Data
+Contains un-preprocessed example EEG data files from the same control participant.
 
 ## DCMs
 Contains two example DCM files that were generated using different B matrices: one full B matrix (forward, backward and self modulatory connections) and one partial B matrix (forward modulatory connections only). 
